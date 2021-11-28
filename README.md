@@ -14,45 +14,86 @@ Add your timetable
 Execute the program
 
 # CODE
-~~~<!DOCTYPE html>
+~~~ <!DOCTYPE html>
 <html>
+<head>
+<title>TIME TABLE</title>
+</head>
 
-   <head>
-      <title>TIME TABLE</title>
-   </head>
-	
-   <body>
-      <table border = "1" cellspacing="1" bordercolor="blue" bgcolor="yellow">
-         <tr>
-            <th colspan="8">TIME TABLE</th>
-         </tr>
-         
-         <tr>
-            <th>DAYS</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-             <th>4</th>
-            <th rowspan="6">lunch break</th>
-            <th>5</th>
-            <th>6</th>
-         </tr>
-          <tr>
-             <td>MONDAY</td>
-             <td>Accounts</td>
-             <td>English</td>
-             <td>Statistics</td>
-             <td>Banking</td>
-             <td align="center">-</td>
-             <td align="center">EP</td>
-         </tr>
-  
-         
-      </table>
-      
-   </body>
+<body>
+   <table border = "1" cellspacing="2" bordercolor="GREEN" >
+     <tr>
+        <th colspan ="8">TIME TABLE</th>
+     </tr>
+     <tr>
+     <th colspan="4" > Reference Number : 21002841 </th><th colspan="4">Name :  Vismaya.S</th>
+     </tr>
+     <tr>
+        <th>DAYS</th>
+        <th>8:00-9:00</th>
+        <th>9:00-10:00</th>
+        <th>10:00-11:00</th>
+        <th>11:00-12:00</th>
+        <th>12:00-1:00</th>
+        <th>1:00-2:00</th>
+        <th>2:00-3:00</th>
+     </tr>
+     <tr>
+        <th>Monday</th>
+        <th>19EY703/Naresh</th>
+        <th>19EY703/Naresh</th>
+        <th>19MA221/Jaba Jashpin E.T</th>
+        <th>19MA221/Jaba Jashpin E.T</th>
+        <th>--</th>
+        <th>19MA220/Jaba Jashpin E.T</th>
+        <th>19MA220/Jaba Jashpin E.T</th>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <th>19AI402/Karthi Govindaraju</th>
+        <th>19AI402/Karthi Govindaraju</th>
+        <th>19AI303/Ram G.R</th>
+        <th>19AI303/Ram G.R</th>
+        <th>--</th>
+        <th>19AI302/Ram G.R</th>
+        <th>19AI302/Ram G.R</th>
+      </tr>
+      <tr>
+        <th>Wednesday</th>
+        <th>19AI401/Karthi Govindaraju</th>
+        <th>19AI401/Karthi Govindaraju</th>
+        <th>19MA220/Jaba Jashpin E.T</th>
+        <th>19MA220/Jaba Jashpin E.T</th>
+        <th>--</th>
+        <th>--</th>
+        <th>--</th>
+      </tr>
+      <tr>
+        <th>Thursday</th>
+        <th>19AI302/Ram G.R</th>
+        <th>19AI302/Ram G.R</th>
+        <th>19AI301/Jaba Jashpin E.T</th>
+        <th>19AI301/Jaba Jashpin E.T</th>
+        <th>ECA051-AD/Karthik S</th>
+        <th>19AI303/Ram G.R</th>
+        <th>19AI303/Ram G.R</th>
+      </tr>
+      <tr>
+        <th>Friday</th>
+        <th>19AI401/Karthi Govindaraju</th>
+        <th>19AI401/Karthi Govindaraju</th>
+        <th>19AI301/Jaba Jashpin E.T</th>
+        <th>19AI301/Jaba Jashpin E.T</th>
+        <th>--</th>
+        <th>19EY701/Subramanian S</th>
+        <th>19EY701/Subramanian S</th>
+       </tr>
+</body>
 </html>
 
 
 ~~~
 # OUPUT
+![GitHub logo](logo.png)
+![GitHub logo](timetable.png)
+
